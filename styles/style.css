@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+}
+
+body {
+  text-decoration: none;
+}
+
+body a {
+  text-decoration: none;
+}
+
+
+#header li a {
+  color: #fff;
+}
+
+#header{
+  background-color: #000;
+  margin-bottom: 1px;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+#nav-drop li a{
+
+  color: #000;
+}
+
+#navbar-button-phone{
+  background-color: #0d63fd;
+}
+
+#destacados-titulo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#masVendido-titulo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#marcas-titulo{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#card-bateria2 {
+  height: 100%;
+}
+
+#card-bateria2 img {
+  width: 100%;
+  height: 285px;
+}
+
+#marcas-container * {
+  margin-bottom: 10px;
+}
+
+#marca1 a img {
+  object-fit: cover;
+  margin-top: 35%;
+  max-width: 500px;
+}
+
+#marca2 a img {
+  object-fit: cover;
+  margin-top: 25%;
+  max-width: 500px;
+}
+
+#marca4 a img {
+  object-fit: cover;
+  margin-top: 25%;
+  max-width: 500px;
+}
+
+#marca5 a img {
+  object-fit: cover;
+  margin-top: 10%;
+  max-width: 500px;
+}
+
+#marca6 a img {
+  object-fit: cover;
+  margin-top: 25%;
+  max-width: 500px;
+}
+
+#footer-container {
+  margin-top: 100px;
+  background-color: #000;
+}
+
+#tarjeta1{
+  background-color: #000;
+}
+
+#tarjeta1 h5{
+  color: #0d63fd;
+  font-size: 30px;
+}
+
+#tarjeta1 ul li{
+  list-style: none;
+  padding-left: 40px;
+}
+
+#tarjeta1 ul li a{
+  color: #ffffff;
+}
+
+#tarjeta2{
+  background-color: #000;
+}
+
+#tarjeta2 h5{
+  color: #0d63fd;
+  font-size: 30px;
+}
+
+#tarjeta2 ul li{
+  list-style: none;
+  padding-left: 30px;
+}
+
+#tarjeta2 ul li a{
+  color: #ffffff;
+}
+
+#tarjeta3{
+  background-color: #000;
+}
+
+#tarjeta3 h5{
+  color: #0d63fd;
+  font-size: 30px;
+}
+
+#tarjeta3 ul li{
+  list-style: none;
+  padding-left: 40px;
+}
+
+#tarjeta3 ul li a{
+  color: #ffffff;
+}
+
+
+/*NOSOTROS*/
+
+#nosotros-container-row{
+  width: 100%;
+}
+
+#nosotros-titulo h1{
+  margin-top: 30px;
+}
+
+#nosotros-contenido{
+  justify-content: center;
+  margin-left: 50px;
+  font-size: 150fr;
+}
+
+/*CONTACTO*/
+
+.form-container {
+  text-align: center;
+}
+
+.formulario {
+  width: 340px;
+  height: 440px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 8px;
+  margin: 25vh auto;
+  padding: 20px 30px;
+  max-width: 55vh;
+  position: relative;
+}
+
+.formulario h2 {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.formulario input {
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  transition: all 0.2s;
+  border-bottom: 2px solid #8f8f8f;
+}
+
+.formulario input:focus {
+  border-bottom: 2px solid #0d63fd;
+}
+
+.formulario p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #ebe8e8;
+}
+
+.formulario button {
+  float: center;
+  margin-top: 50px;
+  border: #ffffff 2px solid;
+  background: 0;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 50px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.formulario button:hover {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+.tarjeta-ubicacion{
+  margin-left: 35%;
+}
